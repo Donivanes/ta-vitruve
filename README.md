@@ -33,14 +33,14 @@ Before you begin, ensure you have the following installed on your system:
 
 3. **Start the Project**
 
-To start the project, run the following command:
+   To start the project, run the following command:
 
-```bash
-make setup
-```
+   ```bash
+   make setup
+   ```
 
-This command will start the project, build the frontend, backend and seed the database with fake data.
-If you want to do it manually, follow the steps below.
+   This command will start the project, build the frontend, backend and seed the database with fake data.
+   If you want to do it manually, follow the steps below.
 
 ## Step by step setup
 
