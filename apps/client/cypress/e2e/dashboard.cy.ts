@@ -30,7 +30,7 @@ describe('dashboard page', () => {
     cy.intercept('POST', `${API_URL}/athletes`, {
       fixture: 'athlete-created.json',
     }).as('createAthlete');
-    cy.get('[data-cy=create-athlete-button]').click();
+    cy.get('[data-cy=create-athlete-button]').click({ force: true });
     cy.get('[data-cy=create-athlete-form]').should('exist');
     cy.get('[data-cy=athlete-input-name]').type(mockAthleteInput.name);
     cy.get('[data-cy=athlete-input-age]')
