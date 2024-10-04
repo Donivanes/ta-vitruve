@@ -4,10 +4,9 @@
 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Setup](#setup)
+- [Step by step](#setup)
 - [Running the Project](#running-the-project)
 - [Running Tests](#running-tests)
-- [License](#license)
 
 ## Prerequisites
 
@@ -32,7 +31,18 @@ Before you begin, ensure you have the following installed on your system:
    pnpm install
    ```
 
-## Setup
+3. **Start the Project**
+
+To start the project, run the following command:
+
+```bash
+make setup
+```
+
+This command will start the project, build the frontend, backend and seed the database with fake data.
+If you want to do it manually, follow the steps below.
+
+## Step by step setup
 
 ### Configure Environment Variables
 
