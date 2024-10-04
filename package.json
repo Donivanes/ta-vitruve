@@ -9,7 +9,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "test:e2e": "turbo run test:e2e",
     "test:e2e:open": "turbo run test:e2e:open",
-    "test:server": "turbo run test",
+    "test:server": "turbo run test:server",
     "db:seed": "turbo run db:seed",
     "db:generate": "turbo run db:generate",
     "db:migrate:deploy": "turbo run db:migrate:deploy"
