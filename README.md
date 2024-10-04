@@ -15,7 +15,6 @@ Before you begin, ensure you have the following installed on your system:
 - [Node.js](https://nodejs.org/) (v20 used in this project)
 - [pnpm](https://pnpm.io/) (v9 used in this project)
 - [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/)
-- [Git](https://git-scm.com/) (optional, for cloning the repository)
 
 ## Installation
 
