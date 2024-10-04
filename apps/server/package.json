@@ -2,7 +2,7 @@
   "name": "server",
   "scripts": {
     "dev": "tsx watch src/app.ts",
-    "test": "jest --forceExit",
+    "test:server": "jest --forceExit",
     "build": "tsc",
     "build:docker": "cd ../.. && docker buildx build -t hono -f apps/server/Dockerfile ."
   },

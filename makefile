@@ -1,4 +1,7 @@
 setup: start-docker setup-env setup-db
+start: start-docker
+stop: stop-docker
+delete: delete-docker
 
 start-docker:
 	docker compose up -d
@@ -14,7 +17,8 @@ setup-db:
 	pnpm db:migrate:deploy
 	pnpm db:seed
 
-run:
-	echo "All services are up and running."
-	echo "Frontend accessible at http://localhost:5173"
-	echo "Backend accessible at http://localhost:3000"
+stop-docker:
+	docker compose down
+
+delete-docker:
+	docker compose down --rmi all --volumes --remove-orphans

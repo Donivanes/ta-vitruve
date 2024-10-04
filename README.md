@@ -40,7 +40,38 @@ Before you begin, ensure you have the following installed on your system:
    ```
 
    This command will start the project, build the frontend, backend and seed the database with fake data.
-   If you want to do it manually, follow the steps below.
+   I have run this command several time, and if it fails, run it again.
+   If you want to do it manually, follow the steps the step by step setup.
+
+4. **To stop the Project**
+
+   To stop the project, run the following command:
+
+   ```bash
+   make stop
+   ```
+
+   This command will stop the project and remove the Docker containers.
+
+5. **To restart the Project**
+
+   To start the project, run the following command:
+
+   ```bash
+   make start
+   ```
+
+   This command will start the project, without doing the setup again.
+
+6. **To delete the Docker Containers and Images**
+
+   To remove the Docker containers, run the following command:
+
+   ```bash
+   make delete
+   ```
+
+   This command will remove the Docker containers and images.
 
 ## Step by step setup
 
@@ -112,10 +143,16 @@ This command will open the Cypress Test Runner, allowing you to interact with th
 
 ### Server Tests
 
-To run the server-side tests, execute:
+In order to run the server tests, you need stop the project and run the following command:
+
+```bash
+make stop:
+```
+
+This command will stop the project and remove the Docker containers (not the images).
+
+After that, to run the api server test, run the following command:
 
 ```bash
 pnpm test:server
 ```
-
-This will run all the tests related to the server api of the project.
