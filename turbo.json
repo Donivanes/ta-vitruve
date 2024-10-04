@@ -22,7 +22,16 @@
       "dependsOn": ["^db:push"],
       "cache": false
     },
+    "db:migrate:deploy": {
+      "cache": false
+    },
     "test:e2e": {
+      "cache": false
+    },
+    "test:e2e:open": {
+      "cache": false
+    },
+    "test:server": {
       "cache": false
     }
   }
