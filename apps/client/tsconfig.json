@@ -1,0 +1,9 @@
+{
+  "extends": "@vitruve/tsconfig/vite.json",
+  "ts-node": {
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "ES2022"
+    }
+  }
+}

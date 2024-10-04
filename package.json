@@ -1,0 +1,23 @@
+{
+  "name": "vitruve",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "test:e2e": "turbo run test:e2e"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^2.1.2",
+    "eslint": "^9.11.1",
+    "@vitruve/eslint-config-custom": "workspace:*",
+    "prettier": "^3.3.3",
+    "turbo": "^2.1.2"
+  },
+  "packageManager": "pnpm@9.10.0",
+  "volta": {
+    "node": "20.17.0"
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "c564aac2-78d5-4f41-bc84-c3e9060ac890",
+    "athleteId": "d8a1d550-7db9-42e6-9443-fc8766ea6184",
+    "metricType": "SPEED",
+    "value": 1,
+    "unit": "KG",
+    "createdAt": "2024-10-02T09:21:12.631Z",
+    "updatedAt": "2024-10-02T09:21:12.631Z"
+  },
+  {
+    "id": "b3e5c7f2-6a96-4914-b7ad-245319575e81",
+    "athleteId": "d8a1d550-7db9-42e6-9443-fc8766ea6184",
+    "metricType": "SPEED",
+    "value": 1,
+    "unit": "KG",
+    "createdAt": "2024-10-02T09:51:13.595Z",
+    "updatedAt": "2024-10-02T09:51:13.595Z"
+  },
+  {
+    "id": "8f464782-067a-4269-8f09-0dd39dcc87b9",
+    "athleteId": "d8a1d550-7db9-42e6-9443-fc8766ea6184",
+    "metricType": "STAMINA",
+    "value": 2,
+    "unit": "KG",
+    "createdAt": "2024-10-02T09:51:18.527Z",
+    "updatedAt": "2024-10-02T09:51:18.527Z"
+  },
+  {
+    "id": "d7038821-2581-4b3f-bd47-1d121075e42a",
+    "athleteId": "d8a1d550-7db9-42e6-9443-fc8766ea6184",
+    "metricType": "STAMINA",
+    "value": 3,
+    "unit": "KG",
+    "createdAt": "2024-10-02T09:51:24.595Z",
+    "updatedAt": "2024-10-02T09:51:24.595Z"
+  },
+  {
+    "id": "497304ab-7f69-401d-a066-78312435812a",
+    "athleteId": "d8a1d550-7db9-42e6-9443-fc8766ea6184",
+    "metricType": "ENDURANCE",
+    "value": 1,
+    "unit": "KG",
+    "createdAt": "2024-10-02T10:59:13.556Z",
+    "updatedAt": "2024-10-02T10:59:13.556Z"
+  },
+  {
+    "id": "91fb155a-b95d-4955-b3ec-c98668dac314",
+    "athleteId": "d8a1d550-7db9-42e6-9443-fc8766ea6184",
+    "metricType": "STRENGTH",
+    "value": 0,
+    "unit": "KG",
+    "createdAt": "2024-10-02T11:01:27.615Z",
+    "updatedAt": "2024-10-02T11:01:27.615Z"
+  }
+]

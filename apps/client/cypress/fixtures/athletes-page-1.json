@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "id": "d8a1d550-7db9-42e6-9443-fc8766ea6184",
+      "name": "Myrtle Cummerata",
+      "age": 50,
+      "team": "Romaguera, Bernier and Yost",
+      "createdAt": "2024-10-01T14:53:35.775Z",
+      "updatedAt": "2024-10-01T02:10:44.345Z"
+    },
+    {
+      "id": "87ac27ee-7885-437f-b472-4306bb30ebb6",
+      "name": "Kenny Schamberger",
+      "age": 23,
+      "team": "Welch Group",
+      "createdAt": "2024-10-01T14:46:25.631Z",
+      "updatedAt": "2024-10-01T01:31:12.773Z"
+    },
+    {
+      "id": "8c15fe50-6045-42ae-af4a-5780af7488f0",
+      "name": "Ignacio Reichel",
+      "age": 19,
+      "team": "Rath, Green and Herman",
+      "createdAt": "2024-10-01T14:39:20.922Z",
+      "updatedAt": "2024-09-30T20:03:40.291Z"
+    },
+    {
+      "id": "e3873d24-1a4d-44f1-972e-8ce5841f2c4b",
+      "name": "Mathew Zboncak",
+      "age": 33,
+      "team": "Stark - Herman",
+      "createdAt": "2024-10-01T14:38:50.099Z",
+      "updatedAt": "2024-09-30T22:03:03.102Z"
+    },
+    {
+      "id": "41fa6da8-4c58-4be7-a57a-df9e1397420a",
+      "name": "Anna Schimmel",
+      "age": 49,
+      "team": "Gerhold and Sons",
+      "createdAt": "2024-10-01T14:38:01.496Z",
+      "updatedAt": "2024-09-30T15:49:26.325Z"
+    },
+    {
+      "id": "189d4c3f-f8b4-451a-ae58-69b39aaaf761",
+      "name": "Jessie Gleason",
+      "age": 20,
+      "team": "Feeney - Heaney",
+      "createdAt": "2024-10-01T14:32:39.916Z",
+      "updatedAt": "2024-10-01T03:35:36.935Z"
+    },
+    {
+      "id": "794693c0-4230-4d05-abd7-ef9e92daa0c1",
+      "name": "Minnie Cartwright",
+      "age": 41,
+      "team": "Dietrich LLC",
+      "createdAt": "2024-10-01T14:31:00.300Z",
+      "updatedAt": "2024-10-01T14:18:10.957Z"
+    },
+    {
+      "id": "d66415ff-fcef-43b0-bec9-0d83d04249e9",
+      "name": "Charles Beer",
+      "age": 22,
+      "team": "Nitzsche, Braun and Rippin",
+      "createdAt": "2024-10-01T14:29:50.767Z",
+      "updatedAt": "2024-10-01T03:12:51.350Z"
+    },
+    {
+      "id": "780abc93-f246-4b85-9fcb-8aefa681a37a",
+      "name": "Leroy West",
+      "age": 40,
+      "team": "Considine, Schiller and Stehr",
+      "createdAt": "2024-10-01T14:29:27.652Z",
+      "updatedAt": "2024-10-01T00:51:57.417Z"
+    },
+    {
+      "id": "83b4fac6-55d0-4765-8cee-75c2be4d3f5c",
+      "name": "Carlos Rau",
+      "age": 46,
+      "team": "Mohr - O'Hara",
+      "createdAt": "2024-10-01T14:28:27.484Z",
+      "updatedAt": "2024-09-30T18:12:56.912Z"
+    }
+  ],
+  "meta": {
+    "currentPage": 1,
+    "totalPages": 30,
+    "totalItems": 298,
+    "limit": 10
+  }
+}

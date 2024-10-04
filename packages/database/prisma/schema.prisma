@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Athlete {
+  id                String              @id @default(uuid())
+  name              String
+  age               Int
+  team              String
+  createdAt         DateTime            @default(now())
+  updatedAt         DateTime            @updatedAt
+  performanceMetric PerformanceMetric[]
+}
+
+model PerformanceMetric {
+  id         String     @id @default(uuid())
+  athleteId  String
+  metricType MetricType
+  value      Float
+  unit       UnitType
+  createdAt  DateTime   @default(now())
+  updatedAt  DateTime   @updatedAt
+  athlete    Athlete    @relation(fields: [athleteId], references: [id], onDelete: Cascade)
+
+  @@index([athleteId])
+}
+
+enum MetricType {
+  SPEED
+  STRENGTH
+  STAMINA
+  ENDURANCE
+}
+
+enum UnitType {
+  KG
+  METERS_PER_SECOND
+  KILOMETERS_PER_HOUR
+}

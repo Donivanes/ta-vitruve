@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "id": "6916d523-bb65-495b-882e-438d6a639ddd",
+      "name": "Omar Hyatt",
+      "age": 31,
+      "team": "Towne LLC",
+      "createdAt": "2024-10-01T14:19:51.825Z",
+      "updatedAt": "2024-09-30T19:26:22.388Z"
+    },
+    {
+      "id": "72eea27b-d3a8-47b9-813d-033a80db05eb",
+      "name": "Dana Heathcote",
+      "age": 21,
+      "team": "Heidenreich - Pagac",
+      "createdAt": "2024-10-01T13:53:55.083Z",
+      "updatedAt": "2024-09-30T15:31:57.048Z"
+    },
+    {
+      "id": "d5f135f4-b214-4fd4-8591-de3e06e01d30",
+      "name": "Elmer Cummerata",
+      "age": 22,
+      "team": "Ondricka LLC",
+      "createdAt": "2024-10-01T13:49:14.088Z",
+      "updatedAt": "2024-10-01T05:40:16.822Z"
+    },
+    {
+      "id": "d1e5ac6c-06ae-4735-881b-c0c1fa8bbeba",
+      "name": "Mr. Blake Schimmel",
+      "age": 46,
+      "team": "Streich - Hermiston",
+      "createdAt": "2024-10-01T13:35:22.282Z",
+      "updatedAt": "2024-09-30T21:38:34.229Z"
+    },
+    {
+      "id": "d1ac3eeb-e30c-480f-951d-3c95043b93ac",
+      "name": "Kathryn King",
+      "age": 32,
+      "team": "Kuphal - Harber",
+      "createdAt": "2024-10-01T13:35:12.405Z",
+      "updatedAt": "2024-10-01T03:18:14.543Z"
+    },
+    {
+      "id": "dc144c7e-2c42-4162-96b3-aa8032a53021",
+      "name": "Charlie Emmerich",
+      "age": 43,
+      "team": "McKenzie, Purdy and Lemke",
+      "createdAt": "2024-10-01T13:33:48.173Z",
+      "updatedAt": "2024-09-30T22:27:15.027Z"
+    },
+    {
+      "id": "902a355a-3543-4bb6-9687-b71fe3bf7e9a",
+      "name": "Gail Daniel",
+      "age": 24,
+      "team": "Heller, King and Marvin",
+      "createdAt": "2024-10-01T13:32:18.792Z",
+      "updatedAt": "2024-09-30T15:57:00.794Z"
+    },
+    {
+      "id": "bf8b953b-6be7-438c-ad49-543194adff2d",
+      "name": "Lori Franey",
+      "age": 42,
+      "team": "Wehner LLC",
+      "createdAt": "2024-10-01T13:31:42.812Z",
+      "updatedAt": "2024-10-01T06:49:52.156Z"
+    },
+    {
+      "id": "1b38de98-1452-443e-a7cd-f6cdea00f8c0",
+      "name": "Michele O'Connell-Mueller",
+      "age": 44,
+      "team": "Swift, Crooks and Legros",
+      "createdAt": "2024-10-01T13:30:02.538Z",
+      "updatedAt": "2024-09-30T19:29:17.572Z"
+    },
+    {
+      "id": "0be28da1-1cc2-430d-932d-24345c562f3f",
+      "name": "Casey Gerlach",
+      "age": 34,
+      "team": "Morissette - Breitenberg",
+      "createdAt": "2024-10-01T13:18:58.680Z",
+      "updatedAt": "2024-09-30T21:25:35.859Z"
+    }
+  ],
+  "meta": {
+    "currentPage": 2,
+    "totalPages": 30,
+    "totalItems": 298,
+    "limit": 10
+  }
+}

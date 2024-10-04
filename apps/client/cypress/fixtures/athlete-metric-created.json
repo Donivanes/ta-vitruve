@@ -1,0 +1,9 @@
+{
+  "id": "3d70d14c-6241-4078-9ac0-b7365b8a771d",
+  "athleteId": "6bd44ff7-5b78-48ce-9771-b1701aa5d3e3",
+  "metricType": "SPEED",
+  "value": 10,
+  "unit": "KILOMETERS_PER_HOUR",
+  "createdAt": "2024-10-02T12:32:36.573Z",
+  "updatedAt": "2024-10-02T12:32:36.573Z"
+}
