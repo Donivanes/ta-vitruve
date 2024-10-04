@@ -48,8 +48,6 @@ Create a `.env` file by copying the provided example:
 cp .env.example .env
 ```
 
-Open the `.env` file and configure the necessary environment variables as per your setup.
-
 ### Docker Setup
 
 Return to the root directory of the project:
